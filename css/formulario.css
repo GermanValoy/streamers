@@ -1,0 +1,119 @@
+* {
+    list-style: none;
+    box-sizing: border-box;
+
+}
+
+body {
+    background: linear-gradient(to right, rgb(46, 46, 45), rgb(102, 94, 22));
+}
+
+.navbar ul li a {
+    border-radius: 3px;
+    text-decoration: none;
+}
+
+.navbar li a:hover {
+  background: rgb(248, 220, 58);
+  transition: 0.5s;
+}
+
+form .btn {
+    background-color: #302b25;
+    color: rgb(255, 255, 255);
+}
+
+form .btn:hover {
+    background-color: rgb(248, 220, 58);
+    color: #000000;
+}
+
+.containerf {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+.footer {
+    background-color: rgb(239, 241, 243);
+    padding: 80px 0;
+}
+.footer-row {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.footer-links {
+    width: 25%;
+    padding: 0 15px;
+}
+
+.footer .footer-links h4 {
+font-size: 20px;
+color: rgb(43, 36, 36);
+margin-bottom: 25px;
+font-weight: 500;
+border-bottom: 2px solid rgb(238, 32, 42);
+padding-bottom: 10px;
+display: inline-block;
+}
+
+.footer .footer-links ul li a {
+    font-size: 18px;
+    text-decoration: none;
+    color: rgb(0, 4, 252);
+    display: block;
+    margin-bottom: 15px;
+    transition: all .3s ease;
+}
+
+.footer .footer-links ul {
+    padding-left: 0;
+}
+
+.footer-links ul li a:hover {
+    color: rgb(0, 0, 0);
+    padding-left: 6px;
+}
+
+.red-social a {
+    display: inline-block;
+    min-height: 40px;
+    width: 40px;
+    background-color: blue;
+    margin: 0 10px 10px 0;
+    text-align: center;
+    line-height: 40px;
+    border-radius: 50%;
+    color: yellow;
+    transition: all .5seg ease;
+}
+
+.red-social a:hover {
+    background-color: black;
+}
+
+.footer-row .grupo02 {
+    width: 100%;
+    background-color: rgb(206, 206, 206);
+    padding: 15px 10px;
+    text-align: center;
+    color: rgb(51, 45, 45);
+}
+
+.footer-row .grupo02 small {
+    font-size: 15px;
+}
+@media (max-width:991px) {
+    .footer-row {
+        text-align: center;
+    }
+
+    .footer-links {
+        width: 100%;
+        margin-bottom: 30px;
+    }
+
+    .box figure {
+        padding-left: 60px;
+        margin-bottom: 20px;
+    }
+}
